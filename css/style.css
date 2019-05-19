@@ -1,0 +1,124 @@
+/*star font*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/*end font*/
+
+/*star body*/
+body {
+    background-color: green;
+    color: black;
+    /* background-image: url("../emage-m/rinjani.jpg"); */
+    font-family: 'roboto', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/*end body*/
+
+/*star debug*/
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-red {
+    background-color: red;
+}
+/*end debug
+
+/*star class container*/
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+/*end clas*/
+
+/* star logo*/
+.logo {
+    text-align: center;
+}
+/* end logo */
+
+/*star anchor/ hyperlink*/
+a: link,
+a: :visited {
+    color: #yellow;
+    text-decoration: none
+}
+a: :hover,
+a: :active {
+    color: #000000;
+    text-decoration: underline;
+}
+/*end anchor/ hyperlink*/
+
+/*star menu primer*/
+.menu-primer ul {
+    background-color: aqua;
+    border-radius : 4px;
+    box-shadow: 0pc;
+}
+.menu-primer li {
+    border-right: 4px solid rgba(12, 11, 11, 0.411);
+    display: inline-block;
+}
+.menu-primer a {
+    color: rgb(15, 2, 37);
+    display: inline-block;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding: 10px 40px;
+    text-transform: uppercase;
+}
+.menu-primer a:hover {
+    background-color: rgb(1, 22, 22);
+    color: yellow;
+    text-decoration: none;
+}
+.menu-primer .active {
+    background-color: rgb(49, 12, 151);
+    color: rgb(17, 2, 19);
+    text-decoration: none;
+}
+/*end menu primer*/
+
+/*star heading*/
+h1, h3, h4 {
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+h1{
+    font-size: 30px;
+
+}
+h3{
+    font-size: 15px;
+}
+h4{
+    font-size: 15px;
+}
+/*end heading*/
+
+/*star jumbotron*/
+.jumbotron {
+    background-color: rgb(13, 168, 39);
+    border: 1px solid yellowgreen;
+    border-radius: 4px;
+    padding: 40px 0;
+}
+.jumbotron h1 {
+    color: aqua;
+    font-size: 50px;
+    font-style: oblique;
+    padding: 0 20px;
+}
+.jumbotron h1 {
+    color: blueviolet;
+    font-size: 30px;
+    padding: 0 25px;
+}
+/*end jumbotron*/
+
+/*star box*/
+
+/*star box*/
